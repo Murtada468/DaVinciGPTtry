@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DaVincieGPT</title>
+
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0b0b10;
+    color: white;
+    overflow: hidden;
+  }
+
+  /* TOP INTRO SECTION */
+  .intro {
+    background: linear-gradient(135deg, #0f7a3a, #18a558);
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .intro img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 15px;
+  }
+
+  .intro h1 {
+    font-family: "Brush Script MT", cursive;
+    font-size: 50px;
+    margin: 0;
+    color: white;
+  }
+
+  .intro p {
+    color: #eaffea;
+    margin-top: 10px;
+  }
+
+  /* BOTTOM SECTION */
+  .center {
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  button {
+    padding: 14px 26px;
+    font-size: 16px;
+    border: none;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 15px rgba(108,92,231,0.4);
+  }
+
+  button:hover {
+    transform: scale(1.05);
+  }
+</style>
+</head>
+
+<body>
+
+<!-- GREEN INTRO -->
+<div class="intro">
+  <img src="logo.png" alt="Da Vinci Logo">
+  <h1>Da Vinci School</h1>
+  <p>Excellence • Innovation • Future</p>
+</div>
+
+<!-- MAIN AREA -->
+<div class="center">
+  <p>Your AI assistant is ready</p>
+
+  <button onclick="openAI()">
+    Start Chat
+  </button>
+</div>
+
+<script>
+function openAI() {
+  window.location.href = "https://davinciegpt.zapier.app";
+}
+</script>
+
+</body>
+</html>
